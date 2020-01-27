@@ -20,6 +20,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Users {
+//	private static final long serialVersionUID = -558553967080513790L;
 
 	@Id
 	@Column(name="user_id")

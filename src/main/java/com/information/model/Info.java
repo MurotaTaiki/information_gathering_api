@@ -21,6 +21,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Info {
+//	private static final long serialVersionUID = -558553967080513790L;
 
 	@Id
 	@GeneratedValue
@@ -32,9 +33,6 @@ public class Info {
 
 	@Column(name="type_id")
 	private Integer typeId;
-
-	@Column(name="operation_id")
-	private Integer operationId;
 
 	@Column(name="title")
 	private String title;

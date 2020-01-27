@@ -21,6 +21,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class History {
+//	private static final long serialVersionUID = -558553967080513790L;
 
 	@Id
 	@GeneratedValue
